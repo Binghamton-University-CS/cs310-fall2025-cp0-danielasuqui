@@ -1,8 +1,9 @@
 #include <iostream>
 #include <stdlib.h>
+#include "Animal.h"
 using namespace std;
 
-class Animal {
+/*class Animal {
    public:
       Animal(string speciesName, unsigned int discoveryYear) {
          species = speciesName;
@@ -18,7 +19,7 @@ class Animal {
    private:
       string species = "";
       unsigned int year_discovered = 0;
-};
+      }; */
 
 int main() {
    Animal *animal1 = new Animal("African Elephant", 1758);
